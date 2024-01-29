@@ -41,5 +41,4 @@ REVOKE DELETE ON YourDatabaseName.Books FROM 'martin'@'localhost';
 
 -- exercise 6
 
--- Revoke UPDATE permission for Martin on the Books table
 REVOKE UPDATE ON YourDatabaseName.Books FROM 'martin'@'localhost';
