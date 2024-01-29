@@ -51,3 +51,12 @@ DELETE FROM Books
 WHERE book_id = 101;
 
 COMMIT;
+
+-- exercise 8
+
+START TRANSACTION;
+
+DELETE FROM Books
+WHERE book_id = 103;
+
+ROLLBACK;
