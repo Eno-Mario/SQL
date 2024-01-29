@@ -11,3 +11,9 @@ CREATE TABLE Books (
     rating DECIMAL(3, 2),
     stock_count INT
 );
+
+-- exercise 2
+
+ALTER TABLE Books
+ADD COLUMN publisher VARCHAR(255),
+ADD COLUMN pages INT;
